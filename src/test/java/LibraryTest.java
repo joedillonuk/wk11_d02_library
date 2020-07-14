@@ -43,5 +43,12 @@ public class LibraryTest {
         assertEquals(false, library.hasRoomInStock());
     }
 
+    @Test
+    public void genreTotalReturnsSomething(){
+        library.addBook(book1);
+
+        assertEquals(2, library.genreTotal());
+    }
+
 
 }
