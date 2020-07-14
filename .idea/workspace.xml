@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23ed306-3608-4ab0-aafa-de6e612c2072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +33,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.BorrowerTest">
     <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryHomework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BookTest" />
       </list>
@@ -78,26 +87,26 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="154" y="207" width="1200" height="589" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1594740047653" />
-    <state x="0" y="264" key="#com.intellij.ide.util.MemberChooser" timestamp="1594738847564">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="0" y="265" key="#com.intellij.ide.util.MemberChooser" timestamp="1594741560902">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="0" y="264" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1594738847564" />
-    <state x="0" y="265" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1594737731485" />
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom" timestamp="1594740342551">
+    <state x="0" y="265" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1594741560902" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom" timestamp="1594741668650">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1594740342551" />
-    <state width="1358" height="200" key="GridCell.Tab.0.center" timestamp="1594740342550">
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1594741668650" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center" timestamp="1594741668649">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1594740342550" />
-    <state width="1358" height="200" key="GridCell.Tab.0.left" timestamp="1594740342550">
+    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1594741668649" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left" timestamp="1594741668649">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1594740342550" />
-    <state width="1358" height="200" key="GridCell.Tab.0.right" timestamp="1594740342550">
+    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1594741668649" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right" timestamp="1594741668650">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1594740342550" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1594741668650" />
   </component>
 </project>

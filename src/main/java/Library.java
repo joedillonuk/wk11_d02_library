@@ -33,4 +33,8 @@ public class Library {
         }
         return true;
     }
+
+    public Book removeBook(){
+        return this.stock.remove(0);
+    }
 }
